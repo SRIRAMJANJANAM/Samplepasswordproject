@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <style>
+        body{
+            background: #123;
+        }
+        h3{
+            color: #eee;
+            margin-top: 12%;
+            margin-left: 56px;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 29px;
+        }
+        h3:hover{
+            border: 3px solid green;
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        button{
+            text-decoration: none;
+            font-size: 25px;
+            text-align: center;
+            margin-left: 40%;
+            background: red;
+            border: none;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        button:hover{
+            background-color: green;
+            font-weight: bold;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        #id{
+            background: #123;
+            height: 60px;
+            text-align: center;
+            padding-top: 20px;
+            border-radius: 10px;
+            margin: 50px 50px;
+            margin-top: 1px;
+        }
+       
+        #id h1{
+            background-color: rgba(235, 238, 101, 0.891);
+            width: 900px;
+            color: #000;
+            text-align: center;
+            letter-spacing: 6px;
+            margin: auto;
+            padding: 4px;
+            border-radius: 20px;
+        }
+        ::selection{
+            background-color: red;
+        }
+        h4{
+            color: #caf00c;
+           
+            letter-spacing: 1px;
+            margin-top: 1px;
+            margin-left: 56px;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 29px;
+        }
+        h4:hover{
+            text-align: center;
+            text-decoration: 5px underline red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3> Hi Sri Ram <h4>Generate a Random Password</h4></h3>
+        <div id="id"><h1> {{password}}   </h1></div>
+        <button ><a href="/pwd">Generate Password⚡</a></button>
+    </div>
+</body>
+</html>
